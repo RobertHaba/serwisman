@@ -1,0 +1,602 @@
+﻿<!doctype html>
+<html lang=pl>
+
+<head>
+    <meta charset=UTF-8>
+    <meta content="width=device-width,initial-scale=1" name=viewport>
+    <meta content="Serwis komputerowy Serwisman.com oferuje naprawy laptopów, komputerów i odzyskiwanie danych na terenie Lipusza i nie tylko. Serwis jest wykonwywany w sposób profesjonalny, szybki i tani." name=description>
+    <meta content="Serwis komputerowy, Serwis komputerów, serwis laptopow, części, serwis, naprawa, laptopow, sprzetu, komputerow ,pogotowie komputerowe, serwis koscierzyna, koscierzyna, serwis lipusz, lipusz, informatyk, drukarki, pc" name=keywords>
+    <link href=./img/serwisman.ico rel=icon type=image/x-icon>
+    <meta content="ie=edge" http-equiv=X-UA-Compatible>
+    <link href=style.css rel=stylesheet>
+    <title>Serwisman.com - Serwis komuterów, laptopów itd.</title>
+    <style>
+        #map {
+            height: 100%;
+            width: 100%
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header class="flex-column flex-a-center f-w-bold header-m">
+            <div class="flex-center bg-c-white header-row">
+                <div class="flex-a-center box-layout flex-j-bet">
+                    <a href=#>
+                        <h1 class=f-s-bigger><i class=logo>Serwisman</i><span class=logo><i class=logo>.com</i></span></h1>
+                    </a>
+                    <div class="flex-a-center flex">
+                        <a class="flex-center bg-c-dark social-item"><img alt="google plus logo" class=i-normall src=./img/icons/google-plus.svg></a>
+                        <a href=https://www.facebook.com/FhuManiek/ class="flex-center bg-c-dark social-item"><img alt="facebook logo" class=i-normall src=./img/icons/facebook-logo.svg></a><img alt="phone icon" class=i-normall src=./img/icons/phone.svg> <a href=tel:508942426 class="f-c-dark number">508-942-426</a></div>
+                </div>
+            </div>
+            <div class="flex-center hamburger-menu" onclick=menu()>☰</div>
+            <nav class="flex-center bg-c-white-opacity header-row-s" id=mainNav>
+                <div class="box-layout flex-j-center">
+                    <ul class="nav-menu f-s-small flex">
+                        <a onclick='smoothScroll("services")'>
+                            <li class=nav-item>O nas</li>
+                        </a>
+                        <a onclick='smoothScroll("services2")'>
+                            <li class=nav-item>Nasze usługi</li>
+                        </a>
+                        <a onclick='smoothScroll("allegroSec")'>
+                            <li class=nav-item>Nasze Allegro</li>
+                        </a>
+                        <a onclick='smoothScroll("price")'>
+                            <li class=nav-item>Cennik</li>
+                        </a>
+                        <a onclick='smoothScroll("footerSec")'>
+                            <li class=nav-item>Kontakt</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section class="flex-center flex-column desktop-pic sec-content">
+            <h2 class="f-w-bold f-c-w f-s-content logo">* SERWISMAN.COM *</h2>
+            <ul class="f-w-bold f-c-w f-s-small-content f-shadow flex">
+                <li>TANI PROFESJONALNY SZYBKI
+                </li>
+            </ul>
+        </section>
+        <section class="flex-j-center sec-about" id=services>
+            <div class="flex-column box-layout">
+                <div class="flex-center info-box">
+                    <h2 class="f-c-orange f-w-bold f-s-big">Kim jesteśmy?</h2>
+                </div>
+                <div class=text-box>
+                    <p class="f-c-light-dark f-l-h">
+                        Serwisman.com - Jesteśmy firmą świadczącą profesjonalne usługi serwisowania: komputerów, laptopów, telewizorów, drukarek i nie tylko. Zajmujemy się również odzyskiem danych z dysków: wewnętrzynch i zewnętrznych. Warto również wspomnieć, że zajmujemy się
+                        składaniem komputerów, rozbudową/ wymianą części na lepsze. Oprócz serwisowania/ nparawy hardware (sprzętu komputerowego) zajmujemy się również software'em (systemy operacyjne), a dokładnej: usuwaniem wirusów, przywracaniem systemu,
+                        instalacja systemów i sterowników, instalacja pakietów programów i wiele innych.<br> Na naszych aukcach na allegro możesz zakupić części do laptopów np. matryce, zwiasy, obudowy, klawiatury i wiele wiele
+                        innych. Skupujemy również sprzęty komuterowe, laptopy itp. za gotówkę.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id=services2>
+            <div class="flex-center info-box">
+                <h2 class="f-c-orange f-w-bold f-s-big">Z czym wiążą się nasze usługi serwisowe?</h2>
+            </div>
+            <div class="text-box flex-wrap flex-j-bet rwd-help-services">
+                <div class="flex-column flex-a-center tile-con">
+                    <div class="flex-column flex-a-center flex-j-around half-box"><img alt=laptop class=i-big src=./img/icons/laptop.svg>
+                        <h3 class=f-c-light-dark>Naprawa laptopów</h3>
+                    </div>
+                    <div class=half-box>
+                        <p class="f-c-light f-center f-s-small">
+                            Serwis laptopów - Zajmujemy się wszystkim od wymiany klawiatury, dysków, zawiasów po wymianę matrycy, procesorów. Pomożemy Ci również z zalanym lub zakurzonym laptopem, a także z ulepszeniem podzespołów i pierwszą konfiguracją laptopa.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex-column flex-a-center tile-con">
+                    <div class="flex-column flex-a-center flex-j-around half-box"><img alt=tv class=i-big src=./img/icons/tv2.svg>
+                        <h3 class=f-c-light-dark>Naprawa telewizorów</h3>
+                    </div>
+                    <div class=half-box>
+                        <p class="f-c-light f-center f-s-small">
+                            Serwis telewizorów - Wymienimy uszkodzoną matrycę, głośniki, uszkodzone złącza, zasilacz itd. Po prostu zrobimy wszystko, żeby Twój telewizor dostał drugiego "życia".
+                        </p>
+                    </div>
+                </div>
+                <div class="flex-column flex-a-center tile-con">
+                    <div class="flex-column flex-a-center flex-j-around half-box"><img alt="hard disk" class=i-big src=./img/icons/hard-disk.svg>
+                        <h3 class=f-c-light-dark>Odzyskiwanie danych</h3>
+                    </div>
+                    <div class=half-box>
+                        <p class="f-c-light f-center f-s-small">
+                            Przywracanie danych - Zajmujemy się odzyskiwaniem danych z dysków HDD, SSD i pamięci przenośnych.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="flex-column flex-a-center tile-con">
+                    <div class="flex-column flex-a-center flex-j-around half-box"><img alt="Logo microsoft" class=i-big src=./img/icons/microsoft.svg>
+                        <h3 class=f-c-light-dark>Oprogramowanie</h3>
+                    </div>
+                    <div class=half-box>
+                        <p class="f-c-light f-center f-s-small">
+                            Naprawa software - Wyczyścimy Twój system z wirusów, naprawimy występujące błędy/ problemy. Zajmujemy się również instlacją systemów, sterowników, a także programów. Przygotujemy pierwszą konfigurację systemu dla Twojego komputera/ laptopa.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex-column flex-a-center tile-con">
+                    <div class="flex-column flex-a-center flex-j-around half-box"><img alt=computer class=i-big src=./img/icons/computer2.svg>
+                        <h3 class=f-c-light-dark>Naprawa Komputerów</h3>
+                    </div>
+                    <div class=half-box>
+                        <p class="f-c-light f-center f-s-small">
+                            Serwis komputerowy - Zajmiemy się wymianą płyty głównej, zasilacza, procesora, RAM'u itp. , a także przyśpieszymy Twój komuter. Naprawimy problemy, które uniemożliwiają rozruch komputera. Zajmiemy się również złożeniem sprzętu komputerowego do gier lub
+                            pracy.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex-column flex-a-center tile-con">
+                    <div class="flex-column flex-a-center flex-j-around half-box"><img alt=upgrade class=i-big src=./img/icons/upgrade.svg>
+                        <h3 class=f-c-light-dark>Tworzenie Stron Internetowych</h3>
+                    </div>
+                    <div class=half-box>
+                        <p class="f-c-light f-center f-s-small">Strony internetowe - Zajmiemy się przygotowaniem prostej strony typu wizytówka. Wrzuceniem jej na serwer i wypozycjonowaniem lokalnym. </div>
+                </div>
+                <div class="flex-center text-box" style="margin:0 auto"><button class="f-c-orange f-s-normal btn-more" @click="showWindow = true">Dowiedz się więcej</button></div>
+            </div>
+            <services @close="showWindow = false" v-if=showWindow></services>
+        </section>
+        <section class="flex-center break-sec">
+            <div class=news-box>
+                <h2 class=f-c-d>SKORZYSTAJ Z NASZYCH NAJNOWSZYCH USŁUG</h2>
+            </div>
+        </section>
+        <section class=allegro-sec id=allegroSec>
+            <div class="flex-center info-box">
+                <h2 class="f-c-orange f-w-bold f-s-big">Nasze Allegro</h2>
+            </div>
+            <div class="flex-center flex-column text-box">
+                <p class="f-w-bold f-c-light-dark" style=margin-bottom:15px>Na naszych aukcjach możesz spotkać sporo podzespołów między innymi do:</p>
+                <div class="flex-center box-layout f-c-light flex-wrap rwd-allegro-icons">
+                    <div class="flex-center flex-column tile-small"><img alt=computer class=i-big src=./img/icons/computer.svg>
+                        <h2>Komputerów</h2>
+                    </div>
+                    <a href="https://allegro.pl/uzytkownik/serwisman_com/czesci-do-laptopow-77801?order=m">
+                        <div class="flex-center flex-column tile-small"><img alt=laptop class=i-big src=./img/icons/laptop2.svg>
+                            <h2>Laptopów</h2>
+                        </div>
+                    </a>
+                    <a href="https://allegro.pl/uzytkownik/serwisman_com/rtv-i-agd?order=m">
+                        <div class="flex-center flex-column tile-small"><img alt=tv class=i-big src=./img/icons/tv.svg>
+                            <h2>Telewizorów</h2>
+                        </div>
+                    </a>
+                    <div class="flex-center flex-column tile-small"><img alt=Smartphone class=i-big src=./img/icons/smartphone.svg>
+                        <h2>Smartphon'ów</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-center info-box">
+                <h2 class="f-c-orange f-w-bold f-s-normal">Na chwilę obecną posiadamy:</h2>
+            </div>
+            <div class="flex-center text-box" id=countAction>
+                <a href="https://allegro.pl/uzytkownik/serwisman_com?order=m">
+                    <div class="flex-column flex-a-center tile-small"><img alt=auction class=i-big src=./img/icons/auction.svg>
+                        <h3 class=f-c-light><span class="f-c-orange count">0</span> Aukcji</h3>
+                    </div>
+                </a>
+                <a href=https://allegro.pl/uzytkownik/39887172/oceny>
+                    <div class="flex-column flex-a-center tile-small"><img alt=auction class=i-big src=./img/icons/like.svg>
+                        <h3 class=f-c-light><span class="f-c-orange count">0</span> Polecających</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="flex-center info-box">
+                <h3 class="f-c-orange f-w-bold f-s-normal">Przejdź do naszego allegro i zobacz sam</h3>
+            </div>
+            <div class="flex-center text-box">
+                <div class="flex-center flex-column tile-small">
+                    <a href="https://allegro.pl/uzytkownik/serwisman_com?order=m" class="flex-center bg-c-orange square-normall"><img alt="allegro logo" class=i-big src=./img/icons/allegro.svg> </a><a href="https://allegro.pl/uzytkownik/serwisman_com?order=m" class=f-c-light>serwisman_com</a></div>
+            </div>
+        </section>
+        <section class="flex-center break-sec desktop-pic">
+            <div class=news-box>
+                <h2 class=f-c-d>ODWIEDZAJ CODZIENNIE NASZE AUKCJE, ABY WYŁAPAĆ DOSKONAŁE OFERTY</h2>
+            </div>
+        </section>
+        <section class="flex-center price-sec" id=price>
+            <div class=box-layout>
+                <div class="flex-center info-box">
+                    <h2 class="f-c-orange f-w-bold f-s-big">Abonamenty dla firm</h2>
+                </div>
+                <div class="text-box flex-wrap flex-j-around">
+                    <div class="shadow-light tile-big">
+                        <div class="flex-center bg-c-dark quarter-box">
+                            <h3 class="f-center f-c-w">Mini<br>19zł</h3>
+                        </div>
+                        <ul class="f-c-light example-services">
+                            <li>Instalacja nowych urządzeń np. zasilacz</li>
+                            <li>Konfiguracja BIOS-u</li>
+                            <li>Usuwanie wirusów oraz złośliwego oprogramowania</li>
+                            <li>Instalacja aplikacji, sterowników.</li>
+                        </ul>
+                    </div>
+                    <div class="shadow-light tile-big">
+                        <div class="flex-center bg-c-dark quarter-box">
+                            <h3 class="f-center f-c-w">Poziom 1<br>39zł</h3>
+                        </div>
+                        <ul class="f-c-light example-services">
+                            <li>Instalacja lub naprawa systemu + sterowniki</li>
+                            <li>Czyszczenie układu chłodzenia</li>
+                            <li>Aktualizacja BIOS-u</li>
+                            <li>Wymiana matrycy, inwertera, taśmy</li>
+                            <li>Wymiana obudowy & klawiatury w laptopie</li>
+                        </ul>
+                    </div>
+                    <div class="shadow-light tile-big">
+                        <div class="flex-center bg-c-dark quarter-box">
+                            <h3 class="f-center f-c-w">Poziom 2<br>od 59zł</h3>
+                        </div>
+                        <ul class="f-c-light example-services">
+                            <li>Usługa lutowania np. wymiana gniazda, kondensatory</li>
+                            <li>Wymiana wyświetlacza & szybki w tablecie</li>
+                            <li>Naprawa Laptopa po zalaniu</li>
+                        </ul>
+                    </div>
+                    <div class="flex-center info-box"><button class="f-c-orange f-s-normal btn-more" @click="showPopup = true; stopScroll(); scroll = 'hidden'">Sprawdź nasz indywidualny cennik</button></div>
+                    <modal @close="showPopup = false" v-if=showPopup>
+                        <h3 slot=header>Cennik</h3>
+                    </modal>
+                </div>
+        </section>
+        <footer class=footer-sec id=footerSec>
+            <div class=map>
+                <div id=map></div>
+            </div>
+            <div class="flex-j-center form-box">
+                <div class="flex-center flex-column box-column flex-j-center">
+                    <div class="flex-center text-small-box">
+                        <h2 class="f-c-w f-t-upper m-bot-50">Skontaktuj się z nami</h2>
+                    </div>
+                    <div class="flex-center f-c-orange m-bot-10" id=form-return-text></div>
+                    <form action=send-script.php class="flex-center flex-column form" id=contactForm method=post novalidate>
+                        <div class="flex-center form-row"><label for=name></label><input id=name id=field-name data-error="Wypełnij to pole" name=name pattern="[a-zA-ZąĄććęęłŁńŃóÓśŚżŻŹŹ ]+" placeholder=Imię required></div>
+                        <div class=form-row><label for=email></label><input id=email id=field-email data-error="Wpisz poprawny email" name=email pattern=[^@\s]+@[^@\s]+\.[^@\s]+ placeholder=email@email.pl required type=email></div>
+                        <div class=form-row><label for=message></label><textarea id=message id=field-message data-error="Musisz wypełnić pole" name=message pattern=.+ placeholder=Wiadomość required></textarea></div>
+                        <div class=form-row><button class=submit-btn type=submit>Wyślij</button></div>
+                    </form>
+                </div>
+                <div class="flex-center box-column">
+                    <ul class=f-c-light>
+                        <li class="f-w-bold f-c-w f-t-upper">Dane kontaktowe</li>
+                        <li><span class=f-c-orange>*</span>Imię: Mariusz</li>
+                        <li><span class=f-c-orange>*</span>Nazwisko: Niewiarowski</li>
+                        <li><span class=f-c-orange>*</span>Miejscowość: Lipusz</li>
+                        <li><span class=f-c-orange>*</span>Kod pocztowy: 83-424</li>
+                        <li><span class=f-c-orange>*</span>Ulica: Józefa Wybickiego 11</li>
+                        <li><span class=f-c-orange>*</span>Numer telefonu: 508-942-426</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex-center author">Wykonanie:   <span class=author-link><a href=https://roberthaba.github.io/ >ROBERT HAPKA</a></span></div>
+        </footer>
+    </main>
+    <script src=.\scripts.js></script>
+    <script id=modal-template type=text/x-template>
+        <transition name="modal">
+            <div class="modal-mask">
+                <div class="modal-wrapper">
+                    <div class="modal-container">
+
+                        <div class="modal-name">
+                            <slot name="header">
+                                Cennik
+                            </slot>
+                        </div>
+
+                        <div class="modal-body">
+                            <slot name="body">
+                                <table class="price-services">
+                                    <thead>
+                                        <tr>
+                                            <td>Nazwa i rodzaj usługi</td>
+                                            <td>Szacowanca cena usługi</td>
+                                        </tr>
+
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Diagnoza / kosztorys naprawczy </td>
+                                            <td>BEZPŁATNIE</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Instalacja systemu Windows + sterowniki + konfiguracja systemu </td>
+                                            <td>100zł</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pakiet instalacji Windows + zachowanie danych </td>
+                                            <td>od 120zł </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Czyszczenie i konserwacja komputera LAPTOP / PC </td>
+                                            <td>80zł </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Odwirusowanie komputera / laptopa (zachowane dane) </td>
+                                            <td>od 80zł </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Instalacja routera, konfiguracja sieci bezprzewodowej </td>
+                                            <td>60zł </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Optymalizacja komputera (przyśpieszenie komputera) </td>
+                                            <td>od 70zł </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Wgranie oprogramowania lub sterowników </td>
+                                            <td>od 30zł </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Odblokowanie konta Windows zabezpieczonego hasłem (XP, Vista, 7, 8, 10) </td>
+                                            <td>70zł </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Odblokowanie konta Windows zabezpieczonego hasłem (XP, Vista, 7, 8, 10) </td>
+                                            <td>70zł </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Czyszczenie laptopa (wyczyszczenie wiatraków, wymiana pasty oraz termopadów) </td>
+                                            <td>80zł </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Naprawa Laptopa po zalaniu </td>
+                                            <td>od 150zł </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Naprawa płyty głównej Laptopa </td>
+                                            <td>od 150zł </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Wymiana gniazda zasilania </td>
+                                            <td>od 100zł </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Wymiana matrycy, problemy z podświetleniem ekranu </td>
+                                            <td>od 80zł </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Upgrade (aktualizacja) BIOS-u </td>
+                                            <td>od 40zł </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Odzyskiwanie danych z każdego nośnika </td>
+                                            <td>od 100zł </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Klonowanie zawartości dysku na nowy dysk </td>
+                                            <td>od 60zł </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Wymiana uszkodzonej części w laptopie (klawiatury, dyski, pamięci, napędy CD/DVD) </td>
+                                            <td>70zł </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Projektowanie, montaż i konfiguracja małych sieci komputerowych LAN </td>
+                                            <td>od 100zł </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Stworzenie j strony internetowej lub wizytówki </td>
+                                            <td>od 150zł </td>
+                                        </tr>
+
+
+                                    </tbody>
+                                </table>
+                            </slot>
+                        </div>
+
+                        <div class="modal-footer flex-center">
+
+                            <button class="btn-close" onclick="showScroll()" @click="$emit('close');">
+                                    X
+                             </button>
+                            </slot>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </transition>
+    </script>
+    <script id=modal-services type=text/x-template>
+        <transition name="modal-template">
+            <div class="modal-mask2 flex-center">
+                <div class="modal-window flex">
+                    <div class="modal-header">
+                        <div class="modal-close-sec">
+                            <button class="btn-square" onclick="showScroll()" @click="$emit('close');">
+                                    X
+                             </button>
+                        </div>
+                        <div class="modal-menu flex-center">
+                            <ul>
+                                <li class="bg-c-orange modal-menu-item flex-center" @click="vueServices.clickModalMenu(0),vueServices.content.header = 'Usługi dotyczące serwisu laptopów', vueServices.content.imgSrc ='./img/picture/laptop-dell.jpg', vueServices.pushLaptop()">
+                                    <img src="./img/icons/notebook.svg" alt="laptop">
+                                    <div class="model-menu-item-content">Laptopy</div>
+                                </li>
+                                <li class="modal-menu-item flex-center" @click="vueServices.clickModalMenu(1),vueServices.content.header = 'Usługi dotyczące telewizorów', vueServices.content.imgSrc ='./img/picture/tv.jpeg',vueServices.pushTv()">
+                                    <img src="./img/icons/smart-tv.svg" alt="tv">
+                                    <div class="model-menu-item-content">Telewizory</div>
+                                </li>
+                                <li class="modal-menu-item flex-center" @click="vueServices.clickModalMenu(2),vueServices.content.header = 'Usługi dotyczące stron internetowych', vueServices.content.imgSrc ='./img/picture/code.jpeg',vueServices.pushPhone()">
+                                    <img src="./img/icons/website.svg" alt="website">
+                                    <div class="model-menu-item-content">Strony internetowe</div>
+                                </li>
+                                <li class="modal-menu-item flex-center" @click="vueServices.clickModalMenu(3),vueServices.content.header = 'Usługi dotyczące systemów operacyjnych', vueServices.content.imgSrc ='./img/picture/system.jpeg',vueServices.pushSystem()">
+                                    <img src="./img/icons/windows.svg" alt="windows logo">
+                                    <div class="model-menu-item-content">Systemy</div>
+                                </li>
+                                <li class="modal-menu-item flex-center" @click="vueServices.clickModalMenu(4),vueServices.content.header = 'Usługi dotyczące komputerów', vueServices.content.imgSrc ='./img/picture/computer.jpg',vueServices.pushComputer()">
+                                    <img src="./img/icons/pc.svg" alt="pc">
+                                    <div class="model-menu-item-content">Komputery</div>
+                                </li>
+                                <li class="modal-menu-item flex-center" @click="vueServices.clickModalMenu(5),vueServices.content.header = 'Inne usługi', vueServices.content.imgSrc ='./img/picture/other.jpg', vueServices.pushOthers()">
+                                    <img src="./img/icons/elipsis.svg" alt="others">
+                                    <div class="model-menu-item-content">Inne</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="modal-content flex-center">
+                        <div class="modal-layout flex-center">
+                            <div class="modal-column " :style="{'background-image': 'url(' + vueServices.content.imgSrc  + ')' }">
+
+                            </div>
+                            <div class="modal-column">
+                                <div class="info-box flex-center">
+                                    <h2 class="f-c-light-dark f-s-big f-w-bold ">{{vueServices.content.header}}</h2>
+                                </div>
+                                <div class="text-box flex-center">
+                                    <ul>
+                                        <li v-for="services in vueServices.content.services">{{services.text}}</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </transition>
+    </script>
+    <script>
+        function initMap() {
+            var e = {
+                    lat: 54.097953,
+                    lng: 17.783571
+                },
+                t = new google.maps.Map(document.getElementById("map"), {
+                    zoom: 15,
+                    center: e,
+                    styles: [{
+                        featureType: "all",
+                        elementType: "labels.text.fill",
+                        stylers: [{
+                            saturation: 36
+                        }, {
+                            color: "#000000"
+                        }, {
+                            lightness: 40
+                        }]
+                    }, {
+                        featureType: "all",
+                        elementType: "labels.text.stroke",
+                        stylers: [{
+                            visibility: "on"
+                        }, {
+                            color: "#000000"
+                        }, {
+                            lightness: 16
+                        }]
+                    }, {
+                        featureType: "all",
+                        elementType: "labels.icon",
+                        stylers: [{
+                            visibility: "off"
+                        }]
+                    }, {
+                        featureType: "administrative",
+                        elementType: "geometry.fill",
+                        stylers: [{
+                            color: "#000000"
+                        }, {
+                            lightness: 20
+                        }]
+                    }, {
+                        featureType: "administrative",
+                        elementType: "geometry.stroke",
+                        stylers: [{
+                            color: "#000000"
+                        }, {
+                            lightness: 17
+                        }, {
+                            weight: 1.2
+                        }]
+                    }, {
+                        featureType: "landscape",
+                        elementType: "geometry",
+                        stylers: [{
+                            color: "#000000"
+                        }, {
+                            lightness: 20
+                        }]
+                    }, {
+                        featureType: "poi",
+                        elementType: "geometry",
+                        stylers: [{
+                            color: "#000000"
+                        }, {
+                            lightness: 21
+                        }]
+                    }, {
+                        featureType: "road.highway",
+                        elementType: "geometry.fill",
+                        stylers: [{
+                            color: "#000000"
+                        }, {
+                            lightness: 17
+                        }]
+                    }, {
+                        featureType: "road.highway",
+                        elementType: "geometry.stroke",
+                        stylers: [{
+                            color: "#000000"
+                        }, {
+                            lightness: 29
+                        }, {
+                            weight: .2
+                        }]
+                    }, {
+                        featureType: "road.arterial",
+                        elementType: "geometry",
+                        stylers: [{
+                            color: "#000000"
+                        }, {
+                            lightness: 18
+                        }]
+                    }, {
+                        featureType: "road.local",
+                        elementType: "geometry",
+                        stylers: [{
+                            color: "#000000"
+                        }, {
+                            lightness: 16
+                        }]
+                    }, {
+                        featureType: "transit",
+                        elementType: "geometry",
+                        stylers: [{
+                            color: "#000000"
+                        }, {
+                            lightness: 19
+                        }]
+                    }, {
+                        featureType: "water",
+                        elementType: "geometry",
+                        stylers: [{
+                            color: "#494e51"
+                        }, {
+                            lightness: 17
+                        }]
+                    }]
+                });
+            new google.maps.Marker({
+                position: e,
+                map: t
+            })
+        }
+    </script>
+    <script src=https://cdn.jsdelivr.net/npm/vue></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtcCMcAxapEqyov_Ct0UhFkkDbYI5dPjU&callback=initMap" async defer></script>
+    <script src=main.js></script>
+</body>
